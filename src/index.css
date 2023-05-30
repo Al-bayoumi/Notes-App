@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+
+:root {
+    --main-color: #0aad0a;
+    --light-color: #f0f3f2;
+    --font-family: 'Encode Sans Expanded', sans-serif;
+    --rating-color: #ffc908;
+}
+
+body {
+    font-family: var(--font-family) !important;
+    background-image: url(./assets/images/light-patten.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: #BFB78F;
+}
+
+footer {
+    background-color: #BFB78F;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.register {
+    color:#011F26;
+}
