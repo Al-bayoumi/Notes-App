@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Notes-App.git/static/css/main.23ab6430.css",
+    "main.js": "/Notes-App.git/static/js/main.2fd1d057.js",
+    "static/js/787.74861886.chunk.js": "/Notes-App.git/static/js/787.74861886.chunk.js",
+    "static/media/light-patten.svg": "/Notes-App.git/static/media/light-patten.ed706aff39a009de4e80.svg",
+    "static/media/fa-solid-900.ttf": "/Notes-App.git/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Notes-App.git/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Notes-App.git/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/error.svg": "/Notes-App.git/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/fa-brands-400.woff2": "/Notes-App.git/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Notes-App.git/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Notes-App.git/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Notes-App.git/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Notes-App.git/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Notes-App.git/index.html",
+    "main.23ab6430.css.map": "/Notes-App.git/static/css/main.23ab6430.css.map",
+    "main.2fd1d057.js.map": "/Notes-App.git/static/js/main.2fd1d057.js.map",
+    "787.74861886.chunk.js.map": "/Notes-App.git/static/js/787.74861886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ab6430.css",
+    "static/js/main.2fd1d057.js"
+  ]
+}
