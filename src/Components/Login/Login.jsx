@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import * as Yup from 'yup';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 export default function Login({ saveUserData }) {
@@ -42,6 +43,9 @@ export default function Login({ saveUserData }) {
   });
 
   return (<>
+    <Helmet>
+      <title>Register</title>
+    </Helmet>
     <div className="container mx-auto ">
       <div className="row min-vh-100 d-flex justify-content-center align-items-center pb-lg-5 ">
         <div className='col-md-10 pb-lg-5'>

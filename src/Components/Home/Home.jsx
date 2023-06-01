@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useEffect } from 'react'
 import Swal from 'sweetalert2'
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
 
@@ -126,6 +127,9 @@ export default function Home() {
   // ************* /addNote ******************************************
 
   return (<>
+    <Helmet>
+      <title>Register</title>
+    </Helmet>
 
     {/* Add Note  */}
     {/* Button  modal  */}

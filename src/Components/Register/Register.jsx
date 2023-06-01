@@ -3,6 +3,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -51,7 +52,10 @@ export default function Register({ saveUserData }) {
     onSubmit: handleRegister
   });
 
-  return <>
+  return (<>
+   <Helmet>
+      <title>Register</title>
+    </Helmet>
     <div className="container mx-auto ">
       <div className="row min-vh-100 d-flex justify-content-center align-items-center pb-lg-5 ">
         <div className='col-md-10 pb-lg-5'>
@@ -125,5 +129,5 @@ export default function Register({ saveUserData }) {
       </div>
     </div>
 
-  </>
+  </>)
 }
