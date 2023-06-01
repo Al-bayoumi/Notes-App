@@ -163,9 +163,10 @@ export default function Home() {
     {/* Display Note */}
     <div className="row py-5 ">
       {userNotes ? userNotes.map((note, index) => (<Note getUserNotes={getUserNotes} deleteNote={deleteNote}
-        key={note._id} noteDetails={note} />)) : <h5 className='text-center fw-bold text-danger'>No notes found</h5>}
+        key={note._id} noteDetails={note} />)) : <h1 className='text-center found'>
+        No Notes <span className='text-danger'>Found</span></h1>}
     </div>
-    {/* *********************************************************************************************************** */}
+
 
   </>)
 }

@@ -23,9 +23,16 @@ nav {
 footer {
     background-color: #BFB78F;
 }
-.cursor-pointer{
+
+.cursor-pointer {
     cursor: pointer;
 }
+
 .register {
-    color:#011F26;
+    color: #011F26;
+}
+
+h1{
+    font-size: 25px;
+    color: #011F26;
 }
