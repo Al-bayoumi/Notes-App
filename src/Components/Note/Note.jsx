@@ -70,7 +70,7 @@ export default function Note({ noteDetails, deleteNote, getUserNotes }) {
     {/* Display Note */}
     <div className="col-md-3 gy-2  ">
       <div className=" bg-warning p-4 rounded-2 shadow-sm ">
-        <div className="icons float-end">
+        <div className="icons float-end ms-3 ">
           <i onClick={() => { deleteNote(noteDetails._id) }} className='fa-solid fa-trash px-2 cursor-pointer'></i>
           <i onClick={handleShow} className='fa-solid fa-pen-to-square px-2 cursor-pointer'></i>
         </div>
